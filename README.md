@@ -14,12 +14,12 @@ This document is part of our course on Advanced Verification Techniques. Our aim
 ## Experiments with Z3
 We started by experimenting with different algorithms within the Z3 framework. This phase was crucial in understanding the framework's versatility and robustness in diverse contexts. These initial steps were foundational in gaining experience before we embarked on creating the User Propagator.
 
-![Graph Coloring - Peterson 3 Coloring](/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png)
-*Figure 2: Graph coloring example using User Propagator in Z3*
+<img src="/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png" width="500" alt="Graph Coloring - Peterson 3 Coloring">
+*Figure 1: Graph coloring example using Z3*
 
 
-![Hamilton Cycle - Dodecahedral Graph](/plots/dodecahedral_graph_hamilton_cylcle.png)
-*Figure 3: Hamilton cycle in a dodecahedral graph using User Propagator*
+<img src="/plots/dodecahedral_graph_hamilton_cylcle.png" width="500" alt="Hamilton Cycle - Dodecahedral Graph">
+*Figure 2: Hamilton cycle in a dodecahedral graph using Z3*
 
 ## Focus on User Propagator
 The core of this document revolves around the exploration of the User Propagator functionality in Z3. This feature allows for advanced problem-solving by enabling custom propagation strategies, which is a significant advancement over the basic capabilities of Z3.
@@ -27,8 +27,9 @@ The core of this document revolves around the exploration of the User Propagator
 ## Advanced Problem-Solving
 With the User Propagator, we tackled complex problems like the N-Queens challenge and Sudoku puzzles. This step opened new avenues for addressing intricate problems with enhanced efficiency.
 
+<img src="/plots/8-queen.png" width="500" alt="N-Queens Solution">
 ![N-Queens Solution](/plots/8-queen.png)
-*Figure 1: Solution to the N-Queens problem using Z3*
+*Figure 3: Solution to the N-Queens problem using Z3 User Propagators*
 
 ## Conclusion
 Our journey through the Z3 framework and the creation of a User Propagator was enriching and enlightening. We successfully applied Z3 to a variety of algorithmic scenarios, demonstrating its power and adaptability.
