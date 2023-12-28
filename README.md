@@ -17,10 +17,6 @@ We started by experimenting with different algorithms within the Z3 framework. T
 <img src="/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png" width="500" alt="Graph Coloring - Peterson 3 Coloring">
 *Figure 1: Graph coloring example using Z3*
 
-
-<img src="/plots/dodecahedral_graph_hamilton_cylcle.png" width="500" alt="Hamilton Cycle - Dodecahedral Graph">
-*Figure 2: Hamilton cycle in a dodecahedral graph using Z3*
-
 ## Focus on User Propagator
 The core of this document revolves around the exploration of the User Propagator functionality in Z3. This feature allows for advanced problem-solving by enabling custom propagation strategies, which is a significant advancement over the basic capabilities of Z3.
 
@@ -28,7 +24,6 @@ The core of this document revolves around the exploration of the User Propagator
 With the User Propagator, we tackled complex problems like the N-Queens challenge and Sudoku puzzles. This step opened new avenues for addressing intricate problems with enhanced efficiency.
 
 <img src="/plots/8-queen.png" width="500" alt="N-Queens Solution">
-![N-Queens Solution](/plots/8-queen.png)
 *Figure 3: Solution to the N-Queens problem using Z3 User Propagators*
 
 ## Conclusion
