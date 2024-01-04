@@ -57,7 +57,7 @@ With the User Propagator, we tackled complex problems like the N-Queens challeng
     <td>
       <img src="/plots/sudoku_solution.png" width="250" alt="Sudoku Solution">
       <br>
-      <center><i>Figure 6: Sudoku solution</i></center>
+      <center><i>Figure 6: Sudoku solution using Z3 User Propagators</i></center>
     </td>
   </tr>
 </table>
