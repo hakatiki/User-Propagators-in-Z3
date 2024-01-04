@@ -14,8 +14,20 @@ This document is part of our course on Advanced Verification Techniques. We aime
 ## Experiments with Z3
 We started by experimenting with different algorithms within the Z3 framework. This phase was crucial in understanding the framework's versatility and robustness in diverse contexts. These initial steps were foundational in gaining experience before we embarked on creating the User Propagator.
 
-<img src="/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png" width="500" alt="Graph Coloring - Peterson 3 Coloring">
-*Figure 1: Graph coloring example using Z3*
+<table>
+  <tr>
+    <td>
+      <img src="/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png" width="500" alt="Graph Coloring - Peterson 3 Coloring">
+      <br>
+      <center><i>Figure 1: Graph coloring example using Z3</i></center>
+    </td>
+    <td>
+      <img src="/plots/dodecahedral_graph_hamilton_cycle.png" width="500" alt="Hamiltonian cycle in graph">
+      <br>
+      <center><i>Figure 2: Finding Hamiltonian cycle in graphs using Z3</i></center>
+    </td>
+  </tr>
+</table>
 
 ## Focus on User Propagator
 The core of this document revolves around the exploration of the User Propagator functionality in Z3. This feature allows for advanced problem-solving by enabling custom propagation strategies, which is a significant advancement over the basic capabilities of Z3.
@@ -25,6 +37,21 @@ With the User Propagator, we tackled complex problems like the N-Queens challeng
 
 <img src="/plots/8-queen.png" width="400" alt="N-Queens Solution">
 *Figure 3: Solution to the N-Queens problem using Z3 User Propagators*
+
+<table>
+  <tr>
+    <td>
+      <img src="/plots/sudoku_puzzle.png" width="400" alt="Sudoku puzzle">
+      <br>
+      <center><i>Figure 5: Sudoku puzzle</i></center>
+    </td>
+    <td>
+      <img src="/plots/sudoku_solution.png" width="400" alt="Sudoku Solution">
+      <br>
+      <center><i>Figure 6: Sudoku solution</i></center>
+    </td>
+  </tr>
+</table>
 
 ## Conclusion
 Our journey through the Z3 framework and the creation of a User Propagator was enriching and enlightening. We successfully applied Z3 to a variety of algorithmic scenarios, demonstrating its power and adaptability.
