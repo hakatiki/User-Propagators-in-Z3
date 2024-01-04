@@ -22,7 +22,7 @@ We started by experimenting with different algorithms within the Z3 framework. T
       <center><i>Figure 1: Graph coloring example using Z3</i></center>
     </td>
     <td>
-      <img src="/plots/dodecahedral_graph_hamilton_cycle.png" width="500" alt="Hamiltonian cycle in graph">
+      <img src="/plots/dodecahedral_graph_hamilton_cylcle.png" width="500" alt="Hamiltonian cycle in graph">
       <br>
       <center><i>Figure 2: Finding Hamiltonian cycle in graphs using Z3</i></center>
     </td>
@@ -35,18 +35,27 @@ The core of this document revolves around the exploration of the User Propagator
 ## Advanced Problem-Solving
 With the User Propagator, we tackled complex problems like the N-Queens challenge and Sudoku puzzles. This step opened new avenues for addressing intricate problems with enhanced efficiency.
 
-<img src="/plots/8-queen.png" width="400" alt="N-Queens Solution">
-*Figure 3: Solution to the N-Queens problem using Z3 User Propagators*
+<center>
+<table>
+  <tr>
+    <td>
+      <img src="/plots/8-queen.png" width="400" alt="N-Queens Solution">
+      <br>
+      <i>Figure 3: Solution to the N-Queens problem using Z3 User Propagators</i>
+    </td>
+  </tr>
+</table>
+</center>
 
 <table>
   <tr>
     <td>
-      <img src="/plots/sudoku_puzzle.png" width="400" alt="Sudoku puzzle">
+      <img src="/plots/sudoku_puzzle.png" width="250" alt="Sudoku puzzle">
       <br>
       <center><i>Figure 5: Sudoku puzzle</i></center>
     </td>
     <td>
-      <img src="/plots/sudoku_solution.png" width="400" alt="Sudoku Solution">
+      <img src="/plots/sudoku_solution.png" width="250" alt="Sudoku Solution">
       <br>
       <center><i>Figure 6: Sudoku solution</i></center>
     </td>
