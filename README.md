@@ -17,12 +17,12 @@ We started by experimenting with different algorithms within the Z3 framework. T
 <table>
   <tr>
     <td>
-      <img src="/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png" width="500" alt="Graph Coloring - Peterson 3 Coloring">
+      <img src="/plots/graph_coloring_z3_peternson_3_coloring_graph_colored.png" width="300" alt="Graph Coloring - Peterson 3 Coloring">
       <br>
       <center><i>Figure 1: Graph coloring example using Z3</i></center>
     </td>
     <td>
-      <img src="/plots/dodecahedral_graph_hamilton_cylcle.png" width="500" alt="Hamiltonian cycle in graph">
+      <img src="/plots/dodecahedral_graph_hamilton_cylcle.png" width="300" alt="Hamiltonian cycle in graph">
       <br>
       <center><i>Figure 2: Finding Hamiltonian cycle in graphs using Z3</i></center>
     </td>
